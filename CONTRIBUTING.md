@@ -15,7 +15,7 @@ We encourage the use of the [liberated_data project](https://github.com/nheeren/
 
 ## Data format
 
-The file must be compliant to [RFC 4180](https://www.rfc-editor.org/info/rfc4180). [Microsoft Excel seems to do a decent job of exporting RFC compliant csv data](https://superuser.com/a/302338/215109). 
+The file must be compliant to [RFC 4180](https://www.rfc-editor.org/info/rfc4180). 
 
 We require that pull requests adhere to the following guidelines (most based on RFC 4180):
 
@@ -30,7 +30,7 @@ We require that pull requests adhere to the following guidelines (most based on 
 
 Please refer to the [Wikipedia article](https://en.wikipedia.org/wiki/Comma-separated_values) on CSV for more details.
 
+## Tools
 
-
-
+Since many users will probably use Microsoft Excel to process the data, the requirements for formatting account for some of the Excel quirks. For instance, the Boolean variable `True` will always be converted to uppercase by Excel. This could be avoided by a leading single quote `'` , but Excel keeps replacing the value on import. Therefore, the uppercase values `TRUE` and `FALSE` are being used. Other than that [Microsoft Excel seems to do a decent job of exporting RFC compliant csv data](https://superuser.com/a/302338/215109). 
 

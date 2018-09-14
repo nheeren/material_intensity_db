@@ -1,7 +1,7 @@
-﻿Variable_name,notes,unit,values,classification_scheme,missing_data,required
-Country,The name of the country where the data is valid.,country name,text string,ISO 3166-1,"n/a or NULL, depending on the context",TRUE
-Region,,Region or city name,,,,
-construction_period_start,,,,,,
+﻿variable_name,notes,unit,values,classification_scheme,missing_data,required
+Country,Name of the country where the data is valid.,country name,text string,ISO 3166-1,"n/a or NULL, depending on the context",TRUE
+Region,Name of the region or city where the data is valid.,Region or city name,text string,none,"n/a or NULL, depending on the context",TRUE
+construction_period_start,"First year of the construction period specified for the dataset. E.g. 1900 if ""1900 until 1920"" was provided.",year,integer value,Gregorian calendar. https://en.wikipedia.org/wiki/Gregorian_calendar,"n/a or NULL, depending on the context. For instance if the authors write ""<1900"", it is a 'n/a' value.",
 construction_period_end,,,,,,
 Steel,,,,,,
 Copper,,,,,,
@@ -71,7 +71,7 @@ URL,,,,,,
 Source,,,,,,
 Global region,,,,,,FALSE
 Climate zone type [Köppen climate classification],,,,,,FALSE
-Climate zone https://en.wikipedia.org/wiki/K%C3%B6ppen_climate_classification [Köppen climate classification],,,,,,FALSE
+Climate zone ,https://en.wikipedia.org/wiki/K%C3%B6ppen_climate_classification [Köppen climate classification],,,,,FALSE
 Distance from equator https://www.distance.to/ [km],,,,,,FALSE
 "Heating Degree Days, construction period start [HDD] https://www.kapsarc.org/research/projects/global-degree-days-database/",,,,,,FALSE
 "Notes, Heating Degree Days, construction period start [HDD] https://www.kapsarc.org/research/projects/global-degree-days-database/",,,,,,FALSE
