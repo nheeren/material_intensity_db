@@ -10,6 +10,8 @@ This database contains data on material intensity of buildings, but can be exten
 
 *Data contributions, and further extensions to the database are very much encouraged.* The more data is contained in the MIR-DB, the more meaningful analysis and can be made with it.
 
+In case you know of a potential data source, but do not want to provide the data yourself, please consider [creating an issue](https://github.com/nheeren/material_intensity_db/issues/) and leaving a link to the dataset, or send me an email.
+
 Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more info on how to contribute data. We encourage the use of the [liberated_data project](https://github.com/nheeren/liberated_data) if you are extracting data from non-portable, such as figures or tables in PDF files.
 
 ## Content
@@ -24,7 +26,7 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more info on how to contribute
 - [ ] Discuss with Farnaz:
   - N/A vs NULL vs "". What to use when.
 
-## Acknowledgments
+## Acknowledgements
 
 :+1: The following people supported the compilation of the original database (Heeren and Fishman (submitted)):
 

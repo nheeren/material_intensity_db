@@ -14,14 +14,6 @@ The codebook has the following columns:
 6. `missing_data`: Describes how missing values are treated for the variable.
 7. `required`: [TRUE, FALSE] Indicates if the variable is required for submission of new data. A 'True' value means that the field cannot be empty. If the data source does not provide data it must be 'NULL' or 'n/a'. See section [special values](#special-values) for more details.
 
-## Variables
-
-See also the [tabular variable descriptor file](codebook.csv).
-
-TODO
-
-- 
-
 ## Special values
 
 - `zero` A zero value is simply given as the number zero. However, it must only be used if the number has been measured and provided in the data source.

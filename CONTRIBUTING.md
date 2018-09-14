@@ -4,9 +4,9 @@
 
 ## Data & variables
 
-Please also refer to the [codebook](codebook.md) and the data descriptor article in Nature Scientific Data. The dataset consists of primary and secondary data attributes. In order to make a (data) contribution to this repository please consider the following guidelines:
+Please also refer to the  and the data descriptor article in Nature Scientific Data. The dataset consists of primary and secondary data attributes. In order to make a (data) contribution to this repository please consider the following guidelines:
 
-1. Primary data must be provided. 
+1. Primary data must be provided (i.e. `required == TRUE` as defined in the[codebook](codebook.md)) and cannot be left empty.
 2. Provision of secondary data is optional, but encouraged.
 3. Adhere to the given CSV [data format](#Data Format)
 4. Create a [pull request](https://help.github.com/articles/creating-a-pull-request/). It is also possible to [edit files online on github](https://help.github.com/articles/editing-files-in-another-user-s-repository/), which may be inconvenient for larger changes.
