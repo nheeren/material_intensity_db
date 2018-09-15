@@ -4,7 +4,9 @@
 
 ## Data & variables
 
-Please also refer to the  and the data descriptor article in Nature Scientific Data. The dataset consists of primary and secondary data attributes. In order to make a (data) contribution to this repository please consider the following guidelines:
+Please also refer to the  and the data descriptor article in Nature Scientific Data. The database contains *primary* and *secondary* attributes. Primary attributes are mandatory throughout database and for any data new data contributions, while secondary ones are optional.
+
+In order to make a (data) contribution to this repository please consider the following guidelines:
 
 1. Primary data must be provided (i.e. `required == TRUE` as defined in the[codebook](codebook.md)) and cannot be left empty.
 2. Provision of secondary data is optional, but encouraged.
@@ -34,3 +36,4 @@ Please refer to the [Wikipedia article](https://en.wikipedia.org/wiki/Comma-sepa
 
 Since many users will probably use Microsoft Excel to process the data, the requirements for formatting account for some of the Excel quirks. For instance, the Boolean variable `True` will always be converted to uppercase by Excel. This could be avoided by a leading single quote `'` , but Excel keeps replacing the value on import. Therefore, the uppercase values `TRUE` and `FALSE` are being used. Other than that [Microsoft Excel seems to do a decent job of exporting RFC compliant csv data](https://superuser.com/a/302338/215109). 
 
+Please consider also contributing to the [liberated data](https://github.com/nheeren/liberated_data) project in case you extract data from non-portable formats such  as figures in PDF files. The project facilitates transparency and reproducibility in science.
