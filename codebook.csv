@@ -42,16 +42,17 @@ building_type,"Sub-type of building occupation, such as single-family home, mult
 averaged_data,Description of how the data was averaged in case the source does not describe a single object. That means a single object is NULL.,text,free text,None,NULL - cannot be empty,TRUE
 urban_rural,"Indication where the building is found, i.e. in urban or rural context.",text,free text (ideally urban or rural),None,NULL - cannot be empty,TRUE
 floor_area_type,"Description of the floor area that has been used for the calculation of material intensity. There exist many different definitions of floor area types, but ideally try to categorize it as 'gross' (including walls and staircases, etc.) or 'net' (living area only). If a standard is specified, please name it here.",text,free text (ideally gross or net),As per data source,NULL - cannot be empty,TRUE
-conversion,Description of any conversion or calculations that have been performed with the data,text,free text,None,NULL - cannot be empty,TRUE
-aggregation,"Description of how data was aggregated. That also includes the selection of the individual categories, such as 'unspecified'.",text,free text,None,NULL - cannot be empty,TRUE
-comment,Any other comments.,text,free text,None,NULL - cannot be empty,TRUE
 Authors,Names of the authors as in the data sources citation.,text,free text,None,NULL - cannot be empty,TRUE
 publication_year,Publication year,year,integer value,Gregorian calendar. https://en.wikipedia.org/wiki/Gregorian_calendar,NULL - cannot be empty,TRUE
-title,Title of the publication,text,free text,None,NULL - cannot be empty,TRUE
-outlet,"Name of the publication outlet, e.g. Journal of Industrial Ecology",text,free text,None,NULL - cannot be empty,TRUE
+publication_title,Title of the publication,text,free text,None,NULL - cannot be empty,TRUE
+publication_outlet,"Name of the publication outlet, e.g. Journal of Industrial Ecology",text,free text,None,NULL - cannot be empty,TRUE
 DOI,For scientific publications its Digital Object Identifier: http://www.doi.org,text,free text,Digital Object Identifier: http://www.doi.org,NULL - cannot be empty,TRUE
 URL,Internet address where the data can be accessed (or is described).,text,free text,http address,NULL - cannot be empty,TRUE
-editor,Name of the person providing the data. Optional.,text,free text,None,NULL - optional,FALSE
+data_entry,Name of the person providing the data. Optional.,text,free text,None,NULL - optional,FALSE
+conversion,Description of any conversion or calculations that have been performed with the data,text,free text,None,NULL - cannot be empty,TRUE
+aggregation,"Description of how data was aggregated. That also includes the selection of the individual categories, such as 'unspecified'.",text,free text,None,NULL - cannot be empty,TRUE
+comment_primary,"Any other comments on the primary data, i.e. data extracted from the original source.",text,free text,None,NULL - cannot be empty,TRUE
+comment_secondary,"Any other comments on the secondary data, i.e. data extracted from the secondary sources. This information should make it easier to find the scondary sources, therefore a full reference and further information, like table no. etc. should be included.",text,free text,None,NULL - optional,FALSE
 global_region,Global region of the country,text (selection),free text,United Nations geoscheme https://en.wikipedia.org/wiki/United_Nations_geoscheme,NULL - optional,FALSE
 climate_classification,Climate region according to the Köppen climate region https://en.wikipedia.org/wiki/Köppen_climate_classification,climate region,text [selection],"Köppen climate classification, https://en.wikipedia.org/wiki/Köppen_climate_classification",NULL - optional,FALSE
 equator_distance,"Distance from the equator, https://www.distance.to/",kilometer,Integer value,None,NULL - optional,FALSE

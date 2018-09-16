@@ -53,6 +53,6 @@ In case you find errors in the data, please correct them (as described in [CONTR
 
 - [ ] Database review
   - [ ] review `urban_rural` column. Fill empty fields.	
-  - [ ] Split `comment`column into conversion, aggregation, comment
   - [ ] Fill empty `climate_classification` columns
-  - [ ] Merge comment columns for HDD, CDD, land area, etc into comment column
+  - [x] Merge comment columns for HDD, CDD, land area, etc into comment column
+  - [x] Split `comment`column into conversion, aggregation, comment

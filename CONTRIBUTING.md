@@ -32,6 +32,10 @@ We require that pull requests adhere to the following guidelines (most based on 
 
 Please refer to the [Wikipedia article](https://en.wikipedia.org/wiki/Comma-separated_values) on CSV for more details.
 
+## Database structure 
+
+If you intend to make or propose changes to the database structure, such as adding new variables, please keep in mind to update the [codebook](codebook.md), precisely explaining the function and format of new columns. Also, please keep in mind that the codebook is intended to be validated by a Python script (*UPDATE required*).
+
 ## Tools
 
 Since many users will probably use Microsoft Excel to process the data, the requirements for formatting account for some of the Excel quirks. For instance, the Boolean variable `True` will always be converted to uppercase by Excel. This could be avoided by a leading single quote `'` , but Excel keeps replacing the value on import. Therefore, the uppercase values `TRUE` and `FALSE` are being used. Other than that [Microsoft Excel seems to do a decent job of exporting RFC compliant csv data](https://superuser.com/a/302338/215109). 
