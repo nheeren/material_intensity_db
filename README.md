@@ -9,8 +9,8 @@ This database contains data on material intensity of buildings, but can be exten
 ## Content
 
 - [CONTRIBUTING](CONTRIBUTING.md): Guidelines on contributing data
-- [Codebook](codebook.md): Document describing the database and the [codebook table](codebook.csv)
-- [codebook table](codebook.csv): Tabular document describing the database variables
+- [Codebook](codebook.md): Document describing the database, meaning of parameter values, and the [codebook table](codebook.csv).
+- [codebook table](codebook.csv): Tabular document describing the database variables.
 - [data/buildings.csv](data/buildings.csv): The building material intensity database
 
 ## Contributing
@@ -52,7 +52,11 @@ In case you find errors in the data, please correct them (as described in [CONTR
   - int, float variables do not contain text
 
 - [ ] Database review
-  - [ ] review `urban_rural` column. Fill empty fields.	
-  - [ ] Fill empty `climate_classification` columns
+  - [ ] Verify if a data conversion applied and update NULLs in column `conversion`
+  - [ ] Verify if a data conversion applied and update NULLs in column `aggregation`
+  - [ ] Fix floor height
+  - [x] Replace 0 values with NA in construction_period_start
+  - [x] review `urban_rural` column. Fill empty fields.	
+  - [x] Fill empty `climate_classification` columns
   - [x] Merge comment columns for HDD, CDD, land area, etc into comment column
   - [x] Split `comment`column into conversion, aggregation, comment
