@@ -31,6 +31,10 @@ For proposing new database attributes or changes to existing ones, please create
 
 In case you find errors in the data, please correct them (as described in [CONTRIBUTING.md](CONTRIBUTING.md)), [create an issue](https://github.com/nheeren/material_intensity_db/issues/), or [contact me](https://github.com/nheeren).
 
+## Citation
+
+This database has been documented in the following research article: ...
+
 ## Acknowledgements
 
 :+1: The following people supported the compilation of the original database (Heeren and Fishman (submitted)):
@@ -45,8 +49,6 @@ In case you find errors in the data, please correct them (as described in [CONTR
 ## TODO
 
 - [ ] Determine if a line ending encoding could become an issue for this repo and discuss in [CONTRIBUTING.md](CONTRIBUTING.md) (see [here](https://stackoverflow.com/a/10855862/2075003) and [here](https://help.github.com/articles/dealing-with-line-endings/) for more details on encoding and github)
-- [ ] Discuss with Farnaz:
-  - N/A vs NULL vs "". What to use when.
 - [ ] Create a script that makes consistency check:
   - All primary columns have a value?
   - int, float variables do not contain text
@@ -54,9 +56,12 @@ In case you find errors in the data, please correct them (as described in [CONTR
 - [ ] Database review
   - [ ] Verify if a data conversion applied and update NULLs in column `conversion`
   - [ ] Verify if a data conversion applied and update NULLs in column `aggregation`
-  - [ ] Fix floor height
+  - [ ] Fix no_floors
   - [x] Replace 0 values with NA in construction_period_start
   - [x] review `urban_rural` column. Fill empty fields.	
   - [x] Fill empty `climate_classification` columns
   - [x] Merge comment columns for HDD, CDD, land area, etc into comment column
   - [x] Split `comment`column into conversion, aggregation, comment
+
+- [x] Discuss with Farnaz:
+  - N/A vs NULL vs "". What to use when.
