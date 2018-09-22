@@ -12,6 +12,7 @@ This database contains data on material intensity of buildings, but can be exten
 - [Codebook](codebook.md): Document describing the database, meaning of parameter values, and the [codebook table](codebook.csv).
 - [codebook table](codebook.csv): Tabular document describing the database variables.
 - [data/buildings.csv](data/buildings.csv): The building material intensity database
+- [references/buildings.csv](references/buildings.bib): References to the data sources used in the material intensity data file.
 
 ## Contributing
 

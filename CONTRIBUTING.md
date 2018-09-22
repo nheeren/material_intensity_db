@@ -9,9 +9,10 @@ Please also refer to the  and the data descriptor article in Nature Scientific D
 In order to make a (data) contribution to this repository please consider the following guidelines:
 
 1. Primary data must be provided (i.e. `required == TRUE` as defined in the[codebook](codebook.md)) and cannot be left empty.
-2. Provision of secondary data is optional, but encouraged.
-3. Adhere to the given CSV [data format](#Data Format)
-4. Create a [pull request](https://help.github.com/articles/creating-a-pull-request/). It is also possible to [edit files online on github](https://help.github.com/articles/editing-files-in-another-user-s-repository/), which may be inconvenient for larger changes.
+2. Provision of secondary data columns is optional, but encouraged.
+3. Adding the data source to the [BibTeX reference file](references/) is also optional.
+4. Adhere to the given CSV [data format](#Data Format)
+5. Create a [pull request](https://help.github.com/articles/creating-a-pull-request/). It is also possible to [edit files online on github](https://help.github.com/articles/editing-files-in-another-user-s-repository/), which may be inconvenient for larger changes.
 
 We encourage the use of the [liberated_data project](https://github.com/nheeren/liberated_data) if you are extracting data from non-portable, such as figures or tables in PDF files.
 
@@ -35,6 +36,10 @@ Please refer to the [Wikipedia article](https://en.wikipedia.org/wiki/Comma-sepa
 ## Database structure 
 
 If you intend to make or propose changes to the database structure, such as adding new variables, please keep in mind to update the [codebook](codebook.md), precisely explaining the function and format of new columns. Also, please keep in mind that the codebook is intended to be validated by a Python script (*UPDATE required*).
+
+## References
+
+[references/](references/) contains the references to the data in [data/](data/). Adding a reference for a new data point is optional. Please use the [BibTeX format](http://www.bibtex.org/Format/) and append the .bib file at the end with the new reference. Please use only the common fields, such as author, year, etc. BibTeX references can easily be exported from Google Scholar (by clicking on the parenthesis icon on the article), Mendeley (Menu Edit > Copy As...), or zotero.
 
 ## Tools
 
