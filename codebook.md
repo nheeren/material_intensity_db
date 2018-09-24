@@ -22,12 +22,12 @@ Please also consider the technical file formatting guidelines described in the [
 
 - `NULL`: This is the default value of cells in a new column or row. It should be treated to mean _awaiting data input_. If a data contributor has not completed entering data, is unsure, or does not provide secondary data attributes, the corresponding cells should remain NULL. A secondary objective of this project is to minimize 'NULL' valued cells.
 
-### Material is mentioned in the data source, but without a positive value:
+### Material is mentioned in the data source, but without a positive value
 
 - `0`: A zero value is only the number zero (0). It must only be used if the number zero was explicitly provided in the data source. For example, a building that was studied and found to have no wood content shall have the value '0' in the corresponding column.
 - `unspecified`: The data source contains an explicit unspecified value, such as "unspecified", "not available", "-", "unknown", "unclear", "trace amounts", "some", etc. This means that the data creators considered this attribute but have not provided a numerical value (zero or non-zero number). For example, a building that was studied and the data creators state that copper content is known to be part of the building in an unknown amount shall have 'unspecified' in the corresponding column.
 
-### Material is not mentioned in the data source:
+### Material is not mentioned in the data source
 
 - `NA`: No data identified in the data source, i.e. no data was provided, is not applicable, or could not be attributed. This means that no (suitable) value was found in the source. For example, if a study focused only on steel in reinforced concrete buildings, then the 'concrete' column shall have a 'NA' value: clearly this building has a concrete content but the study doesn't mention its value. 
 
