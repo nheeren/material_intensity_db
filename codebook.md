@@ -20,8 +20,7 @@ Please also consider the technical file formatting guidelines described in the [
 
 ## Special values
 
-- `NULL`: This is the default value of cells in a new column or row. It should be treated to mean _awaiting data input_. 
-If a data contributor has not completed entering data, is unsure, or does not provide secondary data attributes, the corresponding cells should remain NULL. A secondary objective of this project is to minimize 'NULL' valued cells.
+- `NULL`: This is the default value of cells in a new column or row. It should be treated to mean _awaiting data input_. If a data contributor has not completed entering data, is unsure, or does not provide secondary data attributes, the corresponding cells should remain NULL. A secondary objective of this project is to minimize 'NULL' valued cells.
 
 ### Material is mentioned in the data source, but without a positive value:
 
