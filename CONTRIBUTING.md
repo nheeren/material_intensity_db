@@ -14,7 +14,7 @@ In order to make a (data) contribution to this repository please consider the fo
 4. Adhere to the given CSV [data format](#Data Format)
 5. Create a [pull request](https://help.github.com/articles/creating-a-pull-request/). It is also possible to [edit files online on github](https://help.github.com/articles/editing-files-in-another-user-s-repository/), which may be inconvenient for larger changes.
 
-We encourage the use of the [liberated_data project](https://github.com/nheeren/liberated_data) if you are extracting data from non-portable, such as figures or tables in PDF files.
+Data can be converted or aggregated. Any alteration to the original data must be documented in one of the designated comment columns. We encourage the use of the [liberated_data project](https://github.com/nheeren/liberated_data) if you are extracting data from non-portable, such as figures or tables in PDF files.
 
 ## Data format
 

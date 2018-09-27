@@ -4,14 +4,14 @@ Hopefully Github will enable [rendering of graphs](https://github.com/github/mar
 
 ## special_values figure
 
-This is the code for the  [mermaid graph]( https://mermaidjs.github.io) in the [codebook.md](../codebook.md) file. 
+This is the code for the  [mermaid graph]( https://mermaidjs.github.io) in the [codebook.md](../../codebook.md) file. 
 
 
 
 ```mermaid
+graph TD
 
 %% Items
-graph TD
 NULL["#quot;NULL#quot;<br/>(no observation)"]
 has_info[<i>Does the data source<br/>contain any information?</i>]
 NA["#quot;NA#quot;</br>(no information)"]
