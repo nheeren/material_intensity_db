@@ -49,6 +49,7 @@ publication_title,Title of the publication,text,free text,None,NA or NULL - cann
 publication_outlet,"Name of the publication outlet, e.g. Journal of Industrial Ecology",text,free text,None,NA or NULL - cannot be empty,TRUE
 DOI,For scientific publications its Digital Object Identifier: http://www.doi.org,text,free text,Digital Object Identifier: http://www.doi.org,NA or NULL - cannot be empty,TRUE
 URL,Internet address where the data can be accessed (or is described).,text,free text,http address,NA or NULL - cannot be empty,TRUE
+comment_scope,,,,,,
 comment_conversion,Description of any conversion or calculations that have been performed with the data,text,free text,None,NA or NULL - cannot be empty,TRUE
 comment_aggregation,"Description of how data was aggregated. That also includes the selection of the individual material categories, such as 'unspecified'. Furthermore, averaged data as reported in ""measurement"" must be described here.",text,free text,None,NA or NULL - cannot be empty,TRUE
 comment_primary,"Any other comments on the primary data, i.e. data extracted from the original source.",text,free text,None,NA or NULL - cannot be empty,TRUE
