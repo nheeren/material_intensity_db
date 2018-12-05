@@ -1,8 +1,8 @@
 # Material intensity database project
 
-***Please note that the archived v1.0 release version may not reflect the latest version of the database. Visit the [Github page](https://github.com/nheeren/material_intensity_db) for updates.***
+***Please note that the archived v1.1 release version may not reflect the latest version of the database. Visit the [Github page](https://github.com/nheeren/material_intensity_db) for updates.***
 
-:floppy_disk:  Welcome to the Material Intensity Research Database MIR-DB!  :floppy_disk:  
+:floppy_disk:  Welcome to the Material Intensity Research Database!  :floppy_disk:  
 
 This database contains data on material intensity of buildings, but can be extended for further infrastructure in the future. The initial database version was assembled (seeded) by Heeren and Fishman (submitted). The publication provides some analysis of the data and discusses a number of applications for the database.
 
