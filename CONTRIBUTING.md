@@ -2,6 +2,8 @@
 
 *Thank you for considering to contribute data to the material intensity database project.*
 
+**Data contributors must ensure that their inputs do not infringe any intellectual property or copyright agreements.**
+
 ## Data & variables
 
 Please also refer to the  and the data descriptor article in Nature Scientific Data. The database contains *primary* and *secondary* attributes. Primary attributes are mandatory throughout database and for any data new data contributions, while secondary ones are optional.

@@ -47,9 +47,10 @@ Authors,Names of the authors as in the data sources citation.,text,free text,Non
 publication_year,Publication year,year,integer value,Gregorian calendar. https://en.wikipedia.org/wiki/Gregorian_calendar,NA or NULL - cannot be empty,TRUE
 publication_title,Title of the publication,text,free text,None,NA or NULL - cannot be empty,TRUE
 publication_outlet,"Name of the publication outlet, e.g. Journal of Industrial Ecology",text,free text,None,NA or NULL - cannot be empty,TRUE
+copyright_publication,"Copyright information of the data source. Please ensure that you have permission to use the extracted data and that it is not subject to copyright or constitutes a ""fair use"" under the US copyright code.",text,free text,None,NA or NULL - cannot be empty,TRUE
 DOI,For scientific publications its Digital Object Identifier: http://www.doi.org,text,free text,Digital Object Identifier: http://www.doi.org,NA or NULL - cannot be empty,TRUE
 URL,Internet address where the data can be accessed (or is described).,text,free text,http address,NA or NULL - cannot be empty,TRUE
-comment_scope,,,,,,
+comment_scope,"Information about the scope of the study, describing the relevant system boundaries. For instance, if heating systems, piping, etc. were included.",text,free text,http address,NA or NULL - cannot be empty,TRUE
 comment_conversion,Description of any conversion or calculations that have been performed with the data,text,free text,None,NA or NULL - cannot be empty,TRUE
 comment_aggregation,"Description of how data was aggregated. That also includes the selection of the individual material categories, such as 'unspecified'. Furthermore, averaged data as reported in ""measurement"" must be described here.",text,free text,None,NA or NULL - cannot be empty,TRUE
 comment_primary,"Any other comments on the primary data, i.e. data extracted from the original source.",text,free text,None,NA or NULL - cannot be empty,TRUE
