@@ -1,6 +1,6 @@
 # Material intensity database project
 
-***Please note that the archived v1.1 release version may not reflect the latest version of the database. Visit the [Github page](https://github.com/nheeren/material_intensity_db) for updates.***
+***Please note that the archived v1.0.2 release version may not reflect the latest version of the database. Visit the [Github page](https://github.com/nheeren/material_intensity_db) for updates.***
 
 :floppy_disk:  Welcome to the Material Intensity Research Database!  :floppy_disk:  
 
