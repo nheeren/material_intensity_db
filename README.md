@@ -34,7 +34,7 @@ In case you find errors in the data, please correct them (as described in [CONTR
 
 ## Citation
 
-This database has been documented in the following research article: ...
+Please cite the following article when using the data: Heeren and Fishman. A Database Seed for a Community-Driven Material Intensity Research Platform. Scientific Data. 2019. https://doi.org/10.1038/s41597-019-0021-x.
 
 ## Acknowledgements
 
