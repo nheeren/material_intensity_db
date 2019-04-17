@@ -1,9 +1,8 @@
-# Material intensity database project
+# Material intensity database project :floppy_disk:
 
 :rotating_light: **The Dataset Descriptor article has been released**: https://www.nature.com/articles/s41597-019-0021-x
 
-
-:floppy_disk:  Welcome to the Material Intensity Research Database!  :floppy_disk:  
+Welcome to the Material Intensity Research Database!
 
 This database contains data on material intensity of buildings, but can be extended for further infrastructure in the future. The initial database version was assembled (seeded) by Heeren and Fishman (submitted). The publication provides some analysis of the data and discusses a number of applications for the database.
 
