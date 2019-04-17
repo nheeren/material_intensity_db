@@ -1,6 +1,7 @@
 # Material intensity database project
 
-***Please note that the archived v1.0.2 release version may not reflect the latest version of the database. Visit the [Github page](https://github.com/nheeren/material_intensity_db) for updates.***
+:rotating_light: **The Dataset Descriptor article has been released**: https://www.nature.com/articles/s41597-019-0021-x
+
 
 :floppy_disk:  Welcome to the Material Intensity Research Database!  :floppy_disk:  
 
