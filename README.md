@@ -38,7 +38,7 @@ Please cite the following article when using the data: Heeren and Fishman. A Dat
 
 ## Acknowledgements
 
-:+1: The following people supported the compilation of the original database (Heeren and Fishman (submitted)):
+:+1: The following people supported the compilation of the [original database](https://github.com/nheeren/material_intensity_db/releases/tag/v1.0.2) accompanying the [publication](https://doi.org/10.1038/s41597-019-0021-x):
 
 - Marshall Borrus
 - [Edgar Hertwich](https://github.com/Hertwich)
