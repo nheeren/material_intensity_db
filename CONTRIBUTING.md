@@ -6,7 +6,7 @@
 
 ## Data & variables
 
-Please also refer to the  and the data descriptor article in Nature Scientific Data. The database contains *primary* and *secondary* attributes. Primary attributes are mandatory throughout database and for any data new data contributions, while secondary ones are optional.
+Please also refer to the  and the [Data Descriptor article in Scientific Data](https://www.nature.com/articles/s41597-019-0021-x) (open access). The database contains *primary* and *secondary* attributes. Primary attributes are mandatory throughout database and for any data new data contributions, while secondary ones are optional.
 
 In order to make a (data) contribution to this repository please consider the following guidelines:
 
