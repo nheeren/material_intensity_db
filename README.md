@@ -1,10 +1,15 @@
 # Material intensity database project :floppy_disk:
 
+:fire: :new: New version 1.2 released (November 2023):
+- Now over 900 datapoints
+- Cleaned and revised data
+- Standardized descriptor label attributes for SSP regions, building functions, and structural construction types
+
 :rotating_light: **The Dataset Descriptor article has been released**: https://www.nature.com/articles/s41597-019-0021-x
 
 Welcome to the Material Intensity Research Database!
 
-This database contains data on material intensity of buildings, but can be extended for further infrastructure in the future. The initial database version was assembled (seeded) by Heeren and Fishman (submitted). The publication provides some analysis of the data and discusses a number of applications for the database.
+This database contains data on material intensity of buildings, but can be extended for further infrastructure in the future. The initial database version was assembled (seeded) by Heeren and Fishman (2019). The publication provides some analysis of the data and discusses a number of applications for the database.
 
 ## Content
 
